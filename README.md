@@ -1,17 +1,19 @@
 uclalib_role_redis
 =========
 
-Ansible role to install Redis on a RHEL7 system.
+Ansible role to install Redis on a RHEL8 system.
 
 Requirements
 ------------
 
-The system must have the EPEL repository configured.
+None.
 
 Role Variables
 --------------
 
-None.
+# Must be a version available in a RHEL8 module
+# For RHEL8 valid options are: "5" or "6"
+* `redis_version` - defines the version of redis to install; must be a version available in a RHEL8 module (e.g. `5` or `6`)
 
 Dependencies
 ------------

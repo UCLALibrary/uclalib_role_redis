@@ -1,0 +1,6 @@
+--- 
+
+# Defines the version of redis to install
+# Must be a version available in a RHEL8 module
+# For RHEL8 valid options are: "5" or "6"
+redis_version: "5"
